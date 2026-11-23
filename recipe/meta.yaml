@@ -1,5 +1,5 @@
 {% set name = "libpass" %}
-{% set version = "1.9.4" %}
+{% set version = "1.9.5.post0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/libpass-{{ version }}.tar.gz
-  sha256: 4ff9a5ebf51aad1e8164453bc29c4a06926cf175a9501d87205612ba247f3cbd
+  sha256: 7bf9897875443c782f4eb41903d98350619a25d42e96506c9763661a83607631
 
 build:
   noarch: python
